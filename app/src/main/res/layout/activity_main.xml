@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_alignParentStart="true"
+        android:text="Bunty" />
+
+    <TextView
+        android:id="@+id/sender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="70dp"
+        android:layout_alignParentEnd="true"
+        android:text="chintu" />
+
+
+    <TextView
+        android:id="@+id/taphere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TAP HERE"
+        android:layout_below="@id/sender"
+        android:layout_centerHorizontal="true"
+        android:textSize="35sp"
+        android:textAppearance="@drawable/common_google_signin_btn_text_dark_focused"
+        android:onClick="getNewMessage"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@id/taphere"
+        android:id="@+id/messagelist"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:duplicateParentState="true"
+
+        />
+
+    <TextView
+        android:id="@+id/end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/messagelist"
+        android:layout_centerHorizontal="true"
+        android:textSize="35sp"
+        android:textAppearance="@drawable/common_google_signin_btn_text_dark_focused"
+        android:onClick="getNewMessage"/>
+
+</RelativeLayout>

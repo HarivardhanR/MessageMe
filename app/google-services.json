@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "224548288503",
+    "firebase_url": "https://messaging-app-865ae.firebaseio.com",
+    "project_id": "messaging-app-865ae",
+    "storage_bucket": "messaging-app-865ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224548288503:android:63ed287167853080",
+        "android_client_info": {
+          "package_name": "com.app.harish.messageme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224548288503-qoslk3vrhss8b77il3b12og2upp31a7v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.harish.messageme",
+            "certificate_hash": "5f2a1a29b3e64ba346abab72b9ea11fc31911ccd"
+          }
+        },
+        {
+          "client_id": "224548288503-uqbtgoiq1gqgl95d2h2o6sfll0cedpj4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrAre2aPsCN7WS0PmVg6vIAdJ9vrVlqck"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224548288503-uqbtgoiq1gqgl95d2h2o6sfll0cedpj4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
